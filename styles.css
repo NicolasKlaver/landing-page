@@ -1,0 +1,43 @@
+nav {
+    background-color: #333;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-left: 1px;
+  }
+  
+  .logo img {
+    height: 30%; /* Ajusta el valor según tus necesidades */
+    width: auto;
+    max-height: 30%;
+    max-width: 30%;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
